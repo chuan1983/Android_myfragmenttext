@@ -14,9 +14,11 @@ import android.widget.TextView;
  */
 public class F1Fragment extends Fragment {
     private TextView tv;
+    private MainActivity main;
 
     public F1Fragment() {
         // Required empty public constructor
+        main = (MainActivity) getActivity();
     }
 
 

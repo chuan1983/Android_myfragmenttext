@@ -34,8 +34,15 @@ public class MainActivity extends AppCompatActivity {
         isF1 = !isF1;
         tran = fmgr.beginTransaction();
         tran.replace(R.id.container, isF1?f1:f2);
-        //tran.addToBackStack(null);
+        //tran.addToBackStack(null);   //這段是回上頁
         tran.commit();
+    }
+
+    F1Fragment getF1(){
+        return f1;
+    }
+    F2Fragment getF2(){
+        return f2;
     }
     public void b1(View view){
 
