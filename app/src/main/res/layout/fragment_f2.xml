@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:text="I am f2" />
     <Button
+        android:id="@+id/f2_b2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="b2"
